@@ -1,0 +1,19 @@
+Package: MEDdist
+Title: Density, simulation and ML estimation of the MED distribution
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Antoine",
+           family = "Usseglio-Carleve",
+           role = c("aut", "cre"),
+           email = "antoine.usseglio-carleve@ensai.fr")
+Description: Density, simulation and ML estimation of the MED distribution.
+Depends: R (>= 3.4.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: stats,
+         ManifoldOptim,
+         methods,
+         MASS,
+         pracma,
+         Rcpp
