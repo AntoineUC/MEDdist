@@ -19,7 +19,7 @@ devtools::install_github("AntoineUC/MEDdist")
 
 The following code samples from the MED and draws contour lines.
 
-```{r}
+``` r 
 library(MEDdist)
 set.seed(1)
 
