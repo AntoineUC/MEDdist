@@ -46,3 +46,4 @@ for(level in level_vec){
   lines(x = x, y = y, lwd = 2, col = rgb(level/level_max, 0, (level_max-level)/level_max, alpha = .8))
 }
 ```
+![](README_files/figure-gfm/sample.png)<!-- -->
