@@ -1,4 +1,8 @@
 bayexpectile=function(X,dir=c(1,rep(0,length(X[1,])-1)),rho=0.5,niter=100){
+  
+  setwd(.libPaths())
+  
+  setwd("MEDdist")
 
   if(rho>=1 || rho<0){
     stop("rho must be between 0 and 1.")
