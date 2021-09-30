@@ -8,7 +8,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-baymode(X,niter=100)
+baymode(X,niter=1000)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -17,7 +17,7 @@ baymode(X,niter=100)
 Data set, a n x d matrix.
 }
 \item{niter}{
-Number of iterations. Default: 100.
+Number of iterations. Default: 1000.
 }
 }
 \details{
