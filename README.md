@@ -16,6 +16,8 @@ devtools::install_github("AntoineUC/MEDdist")
 * Density, distribution function, quantile function and random generation for the MED distribution.
 * Maximum likelihood estimation.
 * Bayesian inference using Hamiltonian Monte Carlo (HMC) via RStan.
+* Bayesian estimation of multivariate expectiles of a multivariate distribution.
+* Bayesian estimation of the mode of a multivariate distribution.
 
 The following code samples from the MED and draws contour lines.
 
