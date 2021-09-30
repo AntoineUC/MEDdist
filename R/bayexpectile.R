@@ -25,7 +25,7 @@ bayexpectile=function(X,dir=c(1,rep(0,length(X[1,])-1)),rho=0.5,niter=100){
                   Y = X
   )
 
-  fit <- stan(file = 'expectile.stan', data = med_dat,
+  fit <- sampling(object = stanmodels$expectile, data = med_dat,
               chains = 2, iter = niter)
 
   return(list(mu=extract(fit)$mu,muhat=apply(extract(fit)$mu,2,mean)))
