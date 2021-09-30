@@ -1,4 +1,4 @@
-baymode=function(X,niter=100){
+baymode=function(X,niter=1000){
 
   n=length(X[,1])
 
