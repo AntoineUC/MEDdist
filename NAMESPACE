@@ -3,7 +3,7 @@
 import(Rcpp)
 import(methods)
 importFrom(rstan,sampling)
-useDynLib(MEDdiststan, .registration = TRUE)
+useDynLib(MEDdist, .registration = TRUE)
 importFrom("methods", "new")
 importFrom("stats", "dnorm", "optim", "rnorm", "runif", "var")
 import("ManifoldOptim")
