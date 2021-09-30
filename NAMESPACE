@@ -2,6 +2,11 @@
 
 export(bayexpectile)
 export(baymode)
+export(dmed)
+export(fitmed)
+export(pmed)
+export(qmed)
+export(rmed)
 import(Rcpp)
 import(methods)
 importFrom(rstan,sampling,extract)
