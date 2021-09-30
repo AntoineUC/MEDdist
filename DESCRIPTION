@@ -11,7 +11,7 @@ Depends: R (>= 3.4.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-LinkingTo: Rcpp, rstan, StanHeaders
+LinkingTo: Rcpp, rstan, StanHeaders, RcppEigen
 Imports: stats,
          ManifoldOptim,
          methods,
