@@ -1,4 +1,4 @@
-bayexpectile=function(X,dir=c(1,rep(0,length(X[1,])-1)),rho=0.5,niter=100){
+bayexpectile=function(X,dir=c(1,rep(0,length(X[1,])-1)),rho=0.5,niter=1000){
   
   setwd(.libPaths())
   
