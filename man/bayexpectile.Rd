@@ -8,7 +8,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-bayexpectile(X,dir=(1,0,...,0),rho=0.5,niter=100)
+bayexpectile(X,dir=(1,0,...,0),rho=0.5,niter=1000)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -23,7 +23,7 @@ Direction of the multivariate expectile level. Must be on the unit circle. Defau
 Norm of the multivariate expectile. Default: 0.5.
 }
 \item{niter}{
-Number of iterations. Default: 100.
+Number of iterations. Default: 1000.
 }
 }
 \details{
